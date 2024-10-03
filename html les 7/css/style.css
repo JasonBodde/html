@@ -1,0 +1,15 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+table, th, tr, td{
+    border: 2px solid gray;
+}
+
+th{
+    border: 5px solid red;
+}
+tr:nth-child(even){
+    background-color:goldenrod;
+}
