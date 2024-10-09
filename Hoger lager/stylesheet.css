@@ -1,0 +1,80 @@
+
+*{
+    background-color: gold;
+ margin: 0px;
+ padding: 0px;
+}
+.container{
+    font-size: 20px;
+}
+.dices{
+    padding: 17px;
+    column-count: 3;
+    column-fill: balance;
+}
+
+.headings{
+    font-size: large;
+    padding: 15px;  
+    column-count: 3;
+    column-fill: balance;
+}
+
+.credits{
+    column-count: 5;
+    column-fill:balance;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*.dices-computer-player{
+    column-count: 2;
+}*/
+
+.dices-player{
+    margin-top: 150px;
+    column-count: 2;
+    color: rgb(195, 0, 255);
+    font-size: 120px;
+}
+
+.message{
+    column-count: 3;
+    column-fill: balance;
+}
+
+.message-box{
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 47, 255);
+
+}
+.message-box-below{
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 47, 255);
+}
+
+.controls{
+    padding: 15px;
+    column-count: 6;
+    column-fill: balance;
+}
+
+.dices{
+    font-size: 64pt;
+    color: rgb(204, 0, 255);
+}
+
+button{
+    margin-top: 80px;
+    width: 100%;
+    color: rgb(183, 0, 255);
+    border-radius: 50px;
+}
+/*body {
+    background-image: url('spel.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
